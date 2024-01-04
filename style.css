@@ -1,0 +1,54 @@
+.forca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-forca {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.forca img {
+    width: 50%;
+}
+
+h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    color: rgb(55, 55, 55);
+}
+
+p {
+    font-size: 2em;
+}
+
+p.paragraph-letras {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+p.paragraph-tipo {
+    font-size: 1.3em;
+}
+
+p.paragraph-tentativas {
+    font-size: 1.5em;
+}
+
+form {
+    margin: 2.5em 0;
+}
+
+form #input-letra {
+    width: 20%;
+    height: 30px;
+}
+
+form #botao-enviar {
+    height: 35px;
+
+}

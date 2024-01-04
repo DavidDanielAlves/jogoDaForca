@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jogo da forca</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <section class="forca">
+        <div class="container-forca">
+            <img src="img/boneco-na-forca.jpg" alt="boneco segurando uma corda de forca em  cima de palco">
+            <div class="container-informacoes-forca">
+                <h1>Jogo da forca</h1>
+
+                <p class="paragraph-letras">palavra com <span id="quantidade-letras"></span> letras</p>
+
+                <p class="paragraph-tipo">tipo: <span id="tipo">animal</span></p>
+
+                <p id="palavra-no-html"></p>
+                
+                <form class="form">
+                    <input type="text" id="input-letra">
+                    <input type="submit" value="pronto" id="botao-enviar">
+                </form>
+                <span id="msg-Instrucoes">Escolha uma letra</span>
+                <p class="paragraph-tentativas">Numero de tentativas: <span id="tentativas"></span></p>
+            </div>
+        </div>
+    </section>
+    
+    <script src="main.js"></script>
+</body>
+</html>
